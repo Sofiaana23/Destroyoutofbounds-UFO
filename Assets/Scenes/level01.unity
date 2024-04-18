@@ -265,7 +265,6 @@ MonoBehaviour:
   - {fileID: 1390883420118297253, guid: 23da98007adb70d478d208c8369a3b32, type: 3}
   - {fileID: 7275540738781870154, guid: e72cbe86d7b331c4bbe36dae8890cb78, type: 3}
   - {fileID: 6481329665273292768, guid: 2431092f6809aaa4ca995ca99c2b95bb, type: 3}
-  ufoIndex: 2
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,8 +325,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 100
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -352,8 +351,8 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: -0.70691663, y: 0.0002897417, z: 0.0007399228, w: -0.7072965}
-  m_LocalPosition: {x: 0, y: 277.1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 200, z: 111}
+  m_LocalScale: {x: 0.60223, y: 0.60223, z: 0.40320504}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -458,7 +457,7 @@ Transform:
   m_GameObject: {fileID: 970647287}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6.6, z: -10}
+  m_LocalPosition: {x: 0, y: 6.6, z: 39.9}
   m_LocalScale: {x: 30.426338, y: 8.385275, z: 34.856968}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -479,7 +478,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   horizontalInput: 0
   speed: 65
-  xRange: 180
+  xRange: 150
   blaster: {fileID: 1148321847}
   lazerBolt: {fileID: 1190976148172420422, guid: 8b3f61974d82fd94398f08c86d91bf1b, type: 3}
 --- !u!1 &1148321846
