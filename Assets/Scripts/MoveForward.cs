@@ -10,6 +10,6 @@ public class MoveForward : MonoBehaviour
     void Update()
     {
         // Move gameobject forward
-        transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        transform.Translate(transform.forward * Time.deltaTime * speed);
     }
 }
