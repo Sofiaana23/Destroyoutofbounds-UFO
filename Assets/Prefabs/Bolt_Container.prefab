@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 2722259266658403354}
   - component: {fileID: 1600000395736463178}
   - component: {fileID: 1009381946037383774}
+  - component: {fileID: 3256323102591874312}
   m_Layer: 0
   m_Name: Bolt_Container
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89,6 +90,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &3256323102591874312
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1190976148172420422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.33486563
+  m_Height: 3.2992759
+  m_Direction: 2
+  m_Center: {x: 0.00090904237, y: 0.0012791157, z: -0.0017407736}
 --- !u!1 &2433419949101464034
 GameObject:
   m_ObjectHideFlags: 0
